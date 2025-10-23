@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://aiedu.com/sitemap.xml
+
+# Block access to sensitive areas (when platform is deployed)
+Disallow: /admin/
+Disallow: /api/
+Disallow: /dashboard/
+
+# Allow search engines to index the main landing page
+Allow: /
+Allow: /#features
+Allow: /#pricing  
+Allow: /#testimonials
+Allow: /#faq
